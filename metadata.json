@@ -1,0 +1,27 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name": "KiCad Timelapse",
+  "description": "Record your board as you design it and render a timelapse video.",
+  "description_full": "Takes snapshots of the open board on a timer (unsaved edits included) and renders them into an MP4 with kicad-cli and ffmpeg. Choose a top, angled or bottom 3D view. Snapshots stay next to your project, so you can render again later at any size or speed.",
+  "identifier": "com.github.teamhako.kicad-timelapse",
+  "type": "plugin",
+  "author": {
+    "name": "TeamHako",
+    "contact": {
+      "web": "https://github.com/TeamHako/kicad-timelapse"
+    }
+  },
+  "license": "MIT",
+  "resources": {
+    "homepage": "https://github.com/TeamHako/kicad-timelapse"
+  },
+  "tags": ["timelapse", "video", "render"],
+  "versions": [
+    {
+      "version": "0.1.0",
+      "status": "testing",
+      "kicad_version": "8.0",
+      "kicad_version_max": "10.99"
+    }
+  ]
+}
